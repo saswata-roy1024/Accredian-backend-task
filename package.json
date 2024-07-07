@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saswata-roy1024/FileStore-app"
+  },
+  "author": "Saswata Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saswata-roy1024/FileStore-app/issues"
+  },
+  "homepage": "https://github.com/saswata-roy1024/FileStore-app#readme",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.13",
+    "prisma": "^5.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
